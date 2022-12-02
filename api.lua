@@ -52,6 +52,7 @@ infinite_chest.formspec = function(pos,page)
 		.."button[13,6.5;2,0.5;delete;Delete]"
 		.."list[current_name;"..page..";0,1;15,5;]"
 		.."list[current_player;main;0,7;8,4;]"
+		.."listring[]"
 end
 
 infinite_chest.get_pages = function(meta)
